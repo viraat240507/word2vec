@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments and Anaconda project files
+.venv/
+venv/
+env/
+anaconda_projects/
+.anaconda/
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Downloaded datasets
+nltk_data/
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Logs
+*.log
